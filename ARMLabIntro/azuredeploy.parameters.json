@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "WebVMName": {
+      "value": "armweb"
+    },
+    "WebVMAdminUserName": {
+      "value": "demouser"
+    },
+    "WebPublicIPDnsName": {
+      "value": "inno-azure-demo"
+    },
+    "SQLVMName": {
+      "value": "armsql"
+    },
+    "SQLVMAdminUserName": {
+      "value": "demouser"
+    },
+    "WebVMAdminPassword": {
+      "value": "demo@pass123"
+    },
+    "SQLVMAdminPassword": {
+      "value": "demo@pass123"
+    }
+  }
+}
