@@ -129,7 +129,7 @@
           },
           {
             "name": "rdprule",
-            "properties": {
+             "properties": {
               "description": "This rule allows traffic on port 3389 from the web",
               "protocol": "Tcp",
               "sourcePortRange": "*",
