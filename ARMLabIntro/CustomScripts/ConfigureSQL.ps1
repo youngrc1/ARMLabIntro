@@ -67,7 +67,7 @@ Invoke-Command -Credential $credential -ArgumentList $password -ComputerName $en
 
 
 	# Get the Adventure works database backup 
-	$dbsource = "http://opsgilitylabs.blob.core.windows.net/public/AdventureWorks2012.bak"
+	$dbsource = "https://opsgilitylabs.blob.core.windows.net/public/AdventureWorks2012.bak"
 	$dbdestination = "C:\SQDATA\AdventureWorks2012.bak"
 	Invoke-WebRequest $dbsource -OutFile $dbdestination 
 
