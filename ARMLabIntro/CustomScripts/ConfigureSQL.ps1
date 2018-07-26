@@ -1,5 +1,6 @@
 param([string] $user="demouser", [string] $password="demo@pass123") 
 
+
 $disks = Get-Disk | Where partitionstyle -eq 'raw' 
 if($disks -ne $null)
 {
